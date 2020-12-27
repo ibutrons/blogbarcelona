@@ -1,0 +1,447 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 27px;
+}
+
+a {
+  text-decoration: none;
+  color: #b65423;
+}
+
+.main-header-container {
+  background: #e6e6e6;
+}
+
+.main-header,
+.intro,
+.intro-content,
+.slogan,
+.legal,
+.content-header,
+.content,
+.gallery,
+.erfolge-container {
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main-header .logo {
+  float: left;
+}
+
+.main-header nav {
+  float: right;
+  padding-top: 40px;
+}
+
+.main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header li {
+  float: left;
+}
+
+.main-header nav a {
+  display: block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 300;
+  color: #222;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main-header nav a:hover {
+  border-color: #b54632;
+}
+
+.intro-container {
+  background: transparent url(../images/titelbild2.png) bottom center no-repeat;
+  height: 310px;
+  background-size: cover;
+}
+
+.intro {
+  text-align: left;
+  color: #FF8000;
+  padding-top: 60px;
+}
+
+.intro h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.intro h1 span {
+  display: block;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-content-container {
+  background: #e6e6e6;
+}
+
+
+.intro-text,
+.intro-aside {
+  float: left;
+  padding: 0 20px;
+}
+
+.intro-text {
+  width: 66.66%;
+  border-right: 1px solid #000000;
+}
+
+.intro-text p {
+  margin-top: 0;
+}
+
+.intro-aside {
+  width: 33.33%;
+}
+
+.intro-aside h2 {
+  white-space: nowrap;
+}
+
+.intro-aside li {
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+
+.legal-container {
+  background: #2e2e2e;
+  color: #e3d8c6;
+}
+
+.legal-container a {
+  background: #2e2e2e;
+  color: #e3d8c6;
+  font-weight: 700;
+  padding-bottom: 2px;
+  padding: 10px;
+  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.legal-container a:hover {
+  border-color: #e3d8c6;
+}
+
+
+/*videobereich*/
+
+.video-content {
+    background-color: #2e2e2e;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.videoextern {
+    background-color: #2e2e2e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Gründung*/
+
+.main-content-container {
+    background: #e6e6e6;
+}
+
+.main-content-container h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.content-header-container {
+  border-bottom: 1px solid #222;
+}
+
+.gallery-container {
+  background: #e6e6e6;
+
+}
+
+.gallery article {
+  width: 50%;
+  float: left;
+  position: relative;
+  display: inline;
+  color: #fff;
+  overflow: hidden;
+}
+
+.gallery article:hover .overlay {
+  opacity: 1;
+  top: 0px;
+}
+
+.gallery article .overlay {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background: rgba(0,0,0,.9);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+  /*display: none;*/
+  opacity: 0;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.gallery article img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.content-container section h2 {
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+
+/*Kader*/
+
+.intro-container-mannschaft img {
+  background: transparent url(../images/mannschaft2.png) bottom center no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+
+
+.blueTable {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  padding: 3px 2px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTable.blueTable .divTableHeading {
+  background: #A10303;
+  background: -moz-linear-gradient(top, #b84242 0%, #aa1c1c 66%, #A10303 100%);
+  background: -webkit-linear-gradient(top, #b84242 0%, #aa1c1c 66%, #A10303 100%);
+  background: linear-gradient(to bottom, #b84242 0%, #aa1c1c 66%, #A10303 100%);
+  border-bottom: 2px solid #444444;
+}
+.divTable.blueTable .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+.divTable.blueTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.divTable{
+  display: table;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  display: table-header-group;
+}
+.divTableCell, .divTableHead {
+  display: table-cell;
+}
+.divTableHeading {
+  display: table-header-group;
+}
+.divTableFoot {
+  display: table-footer-group;
+}
+.divTableBody {
+  display: table-row-group;
+}
+
+
+/*Kontaktformular*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+
+
+/*Erfolge Bildergalerie*/
+
+.erfolge-container {
+  background: #e2e2e2;
+
+}
+
+.erfolge article {
+  width: 50%;
+  float: left;
+  position: relative;
+  display: inline;
+  color: #fff;
+  overflow: hidden;
+}
+
+.erfolge article:hover .overlay {
+  opacity: 1;
+  top: 0px;
+}
+
+.erfolge article .overlay {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background: rgba(0,0,0,.9);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+  /*display: none;*/
+  opacity: 0;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.erfolge article img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.content-container section h2 {
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+.img150 {
+  float:
+}
+
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*Mediaqueries*/
+
+@media screen and (max-width: 850px) {
+  .main-header .logo,
+  .main-header nav,
+  .main-header li {
+    float: none;
+  }
+
+  .main-header nav {
+    padding-top: 10px;
+  }
+
+  .main-header {
+    text-align: center;
+  }
+
+  .intro-text,
+  .intro-aside {
+    width: 50%;
+  }
+}
+
+@@media screen and (max-width: 700px) {
+  .intro-container {
+    height: 200px;
+  }
+
+  .intro {
+    padding-top: 20px;
+  }
+
+  .intro h1 {
+    font-size: 30px;
+  }
+
+  .intro h1 span {
+    font-size: 16px;
+  }
+
+}
